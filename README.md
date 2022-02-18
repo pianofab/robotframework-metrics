@@ -37,6 +37,10 @@ __Step 1__ Install robotmetrics
    ```
    python setup.py install
    ```
+   If you modified the project locally and you need to reinstall:
+   ```
+   pip install -e .
+   ```
    > Case 3: For latest changes use following command (pre-release or changes in master)
    ```
    pip install git+https://github.com/adiralashiva8/robotframework-metrics
