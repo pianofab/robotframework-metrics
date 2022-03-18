@@ -100,3 +100,6 @@ def main():
         exit(0)
 
     generate_report(args)
+    
+if __name__ == '__main__':
+    main()
